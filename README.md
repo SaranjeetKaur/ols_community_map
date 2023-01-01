@@ -4,16 +4,17 @@ An interactive map of the geographical distribution of the Open Life Science (OL
 # Run the App
 To run the App on your RStudio:
 
-- Install the Shiny package 
+- Install the `Shiny` package 
 ```sh
 install.packages("Shiny")
+```
 
-- Load the Shiny package
+- Load the `Shiny` package
 ```sh
 library(Shiny)
 ```
 
-- Use the command `runGithub`
+- Use the command `runGithub()`
 ```sh
 runGitHub( "ols_community_map", "SaranjeetKaur")
 ```

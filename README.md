@@ -14,7 +14,7 @@ install.packages("Shiny")
 library(Shiny)
 ```
 
-- Use the command `runGithub()`
+- Use the command `runGitHub()`
 ```sh
 runGitHub( "ols_community_map", "SaranjeetKaur")
 ```

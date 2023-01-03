@@ -1,5 +1,5 @@
 # OLS Community Map
-An interactive map of the geographical distribution of the Open Life Science (OLS) community, created as a project during OLS-6.
+An interactive map of the geographical distribution of the Open Life Science (OLS) community (from OLS cohort 1 to 6), created as a project during OLS-6.
 
 Link to the map: https://qwertyquest169.shinyapps.io/ols_community_map/
 

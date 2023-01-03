@@ -1,5 +1,5 @@
 # OLS Community Map
-An interactive map of the geographical distribution of the Open Life Science (OLS) community, created as a project during OLS-6
+An interactive map of the geographical distribution of the Open Life Science (OLS) community, created as a project during OLS-6.
 
 # Run the App
 To run the App on your RStudio:
@@ -19,4 +19,4 @@ library(Shiny)
 runGitHub( "ols_community_map", "SaranjeetKaur")
 ```
 
-As of now, the app takes approximately 2 minutes to build after which it can be viewed on the browser. Select the cohort for which you want to see the geographical distribution.
+After the app is launched, you can select the cohort for which you want to see the geographical distribution from the drop down menu.

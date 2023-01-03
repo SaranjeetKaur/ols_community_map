@@ -1,6 +1,8 @@
 # OLS Community Map
 An interactive map of the geographical distribution of the Open Life Science (OLS) community, created as a project during OLS-6.
 
+Link to the map: https://qwertyquest169.shinyapps.io/ols_community_map/
+
 # Run the App
 To run the App on your RStudio:
 

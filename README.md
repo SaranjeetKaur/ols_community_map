@@ -22,3 +22,8 @@ runGitHub( "ols_community_map", "SaranjeetKaur")
 ```
 
 After the app is launched, you can select the cohort for which you want to see the geographical distribution from the drop down menu.
+
+# References:
+- [Leaflet for R](https://rstudio.github.io/leaflet/)
+- [Interactive worldmap Shiny app](https://github.com/fverkroost/RStudio-Blogs/blob/master/interactive_worldmap_shiny_app.R)
+- [Shiny reference](https://shiny.rstudio.com/reference/shiny/latest/sidebarlayout)

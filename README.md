@@ -27,3 +27,7 @@ After the app is launched, you can select the cohort for which you want to see t
 - [Leaflet for R](https://rstudio.github.io/leaflet/)
 - [Interactive worldmap Shiny app](https://github.com/fverkroost/RStudio-Blogs/blob/master/interactive_worldmap_shiny_app.R)
 - [Shiny reference](https://shiny.rstudio.com/reference/shiny/latest/sidebarlayout)
+
+# For contributors:
+
+If you would like to contribute to this repo, please open an issue and reach out.

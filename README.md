@@ -28,6 +28,6 @@ After the app is launched, you can select the cohort for which you want to see t
 - [Interactive worldmap Shiny app](https://github.com/fverkroost/RStudio-Blogs/blob/master/interactive_worldmap_shiny_app.R)
 - [Shiny reference](https://shiny.rstudio.com/reference/shiny/latest/sidebarlayout)
 
-# For contributors:
+# For Contributors:
 
-If you would like to contribute to this repo, please open an issue and reach out.
+If you would like to contribute to this repo, please [open an issue](https://github.com/SaranjeetKaur/ols_community_map/issues/new/choose) and reach out to discuss further.

@@ -1,4 +1,5 @@
 library(countrycode)
+library(tidyr)
 library(tidygeocoder)
 
 # Load OLS data

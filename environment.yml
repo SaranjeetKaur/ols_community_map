@@ -1,0 +1,13 @@
+name: ols-community-map
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-shiny
+  - r-maps
+  - r-leaflet
+  - r-dplyr
+  - r-rsconnect
+  - r-countrycode
+  - r-tidygeocoder

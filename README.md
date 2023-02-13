@@ -9,21 +9,11 @@ An interactive map of the geographical distribution of the Open Life Science (OL
 - Using RStudio
     1. Install RStudio
     2. Launch RStudio
-    3. Install R Shiny and some packages
-
-        ```sh
-        install.packages(c("shiny", "maps", "leaflet", "dplyr"))
-        ```
+    3. Install R Shiny and some packages by running `requirements.R`
 
 - Using conda
     1. Install conda
-    2. Create conda environment
-
-        ```sh
-        $ conda create -n ols-community-map r-shiny r-maps r-leaflet r-dplyr r-rsconnect r-countrycode r-tidygeocoder
-        ```
-
-        Or using the `environment.yml` file
+    2. Create conda environment using the `environment.yml` file
 
 ## Deployment locally
 
@@ -56,12 +46,16 @@ The interactive map will then be available on the URL given.
     rsconnect::deployApp('.')
     ```
 
+## Update data
+
+Run `helper.R` script
+
 # References
 
 - [Leaflet for R](https://rstudio.github.io/leaflet/)
 - [Interactive worldmap Shiny app](https://github.com/fverkroost/RStudio-Blogs/blob/master/interactive_worldmap_shiny_app.R)
 - [Shiny reference](https://shiny.rstudio.com/reference/shiny/latest/sidebarlayout)
 
-# For Contributors
+# Contributing
 
 If you would like to contribute to this repo, please [open an issue](https://github.com/SaranjeetKaur/ols_community_map/issues/new/choose) and reach out to discuss further.

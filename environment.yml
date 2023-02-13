@@ -11,3 +11,4 @@ dependencies:
   - r-rsconnect
   - r-countrycode
   - r-tidygeocoder
+  - r-tidyverse

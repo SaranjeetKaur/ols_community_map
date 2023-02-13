@@ -26,6 +26,30 @@ jobs:
         run: install.packages("rsconnect")
         shell: Rscript {0}
 
+      - name: Install shiny
+        run: install.packages("shiny")
+        shell: Rscript {0}
+
+      - name: Install maps
+        run: install.packages("maps")
+        shell: Rscript {0}
+
+      - name: Install leaflet
+        run: install.packages("leaflet")
+        shell: Rscript {0}
+
+      - name: Install dplyr
+        run: install.packages("dplyr")
+        shell: Rscript {0}
+
+      - name: Install countrycode
+        run: install.packages("countrycode")
+        shell: Rscript {0}
+
+      - name: Install tidygeocoder
+        run: install.packages("tidygeocoder")
+        shell: Rscript {0}
+
       - name: Authorize and deploy app
         env: 
           # Provide your app name, account name, and server to be deployed below

@@ -50,6 +50,10 @@ jobs:
         run: install.packages("tidygeocoder")
         shell: Rscript {0}
 
+      - name: Install tidyverse
+        run: install.packages("tidyverse")
+        shell: Rscript {0}
+
       - name: Authorize and deploy app
         env: 
           # Provide your app name, account name, and server to be deployed below

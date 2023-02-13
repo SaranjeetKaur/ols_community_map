@@ -32,6 +32,6 @@ jobs:
           APPNAME: ols_community_map
           SERVER: shinyapps.io # server to deploy
         run: |
-          rsconnect::setAccountInfo(name = "open-life-science", token = "${{ secrets.RSCONNECT_TOKEN }}", secret = "${{ secrets.RSCONNECT_SECRET }}")
+          rsconnect::setAccountInfo(name = "open-life-science", token = "${{ secrets.SHINYAPPS_TOKEN }}", secret = "${{ secrets.SHINYAPPS_SECRET }}")
           rsconnect::deployApp(appName = "${{ env.APPNAME }}", server = "${{ env.SERVER }}")
         shell: Rscript {0}

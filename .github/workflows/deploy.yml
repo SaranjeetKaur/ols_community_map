@@ -17,6 +17,5 @@ jobs:
         shell: Rscript {0}
       - name: Push to shiny.io
         run: |
-          Rscript -e "rsconnect::setAccountInfo(name='open-life-science', token='${{secrets.SHINYAPPS_TOKEN}}', secret='${{secrets.SHINYAPPS_SECRET}}')"
+          Rscript -e "rsconnect::setAccountInfo(name='open-life-science', token=${{secrets.SHINYAPPS_TOKEN}}, secret=${{secrets.SHINYAPPS_SECRET}})"
           Rscript -e "rsconnect::deployApp(appName = 'ols_community_map')"
-        shell: Rscript {0}

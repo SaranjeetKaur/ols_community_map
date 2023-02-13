@@ -1,0 +1,33 @@
+name: Update data
+
+on:
+  schedule:
+    # We'll run this weekly
+    - cron:  '0 12 * * 1'
+  workflow_dispatch:
+
+jobs:
+  runner-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: r-lib/actions/setup-r@master
+      - name: Install R packages
+        run: |
+          install.packages(c("shiny", "maps", "leaflet", "dplyr", "rsconnect", "countrycode", "tidygeocoder"), type = "binary")
+        shell: Rscript {0}
+      - name: Build
+        run: |
+          Rscript helper.R
+        shell: Rscript {0}
+      - name: Commit files
+        run: |
+          git config --local user.email "bot@github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data
+          git commit -m "Updated data ($(date -I))" || true
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

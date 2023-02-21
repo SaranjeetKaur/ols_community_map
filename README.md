@@ -46,10 +46,6 @@ The interactive map will then be available on the URL given.
     rsconnect::deployApp('.')
     ```
 
-## Update data
-
-Run `helper.R` script
-
 # References
 
 - [Leaflet for R](https://rstudio.github.io/leaflet/)

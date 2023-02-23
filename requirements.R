@@ -6,5 +6,7 @@ install.packages(c(
     "rsconnect",
     "countrycode",
     "tidygeocoder",
-    "tidyverse"
+    "tidyverse",
+    "shinythemes",
+    "DT"
 ))

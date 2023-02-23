@@ -1,0 +1,5 @@
+## ABOUT
+
+This app was initially developed by __Saranjeet Kaur Bhogal__ as a project in Cohort 6 of the Open Life Science Mentoring and Training Programme [OLS](https://openlifesci.org/).
+
+## DATA

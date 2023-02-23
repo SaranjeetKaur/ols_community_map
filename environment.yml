@@ -12,3 +12,5 @@ dependencies:
   - r-countrycode
   - r-tidygeocoder
   - r-tidyverse
+  - r-shinythemes
+  - r-DT
